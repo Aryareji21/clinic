@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #fff;
+        }
+        .navbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 20px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #202124;
+            font-size: 14px;
+            margin: 0 10px;
+        }
+        .navbar img {
+            width: 20px;
+            height: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .logo {
+            margin-top: 50px;
+            position: relative;
+        }
+        .logo img.share-icon {
+            position: absolute;
+            top: 50%;
+            right: -40px;
+            transform: translateY(-50%);
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+        }
+        .search-container {
+            margin-top: 20px;
+            width: 60%;
+            text-align: center;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            border: 1px solid #d9d9d9;
+            border-radius: 24px;
+            padding: 8px 12px;
+            background-color: #fff;
+        }
+        .search-bar button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .search-bar button img {
+            width: 24px;
+            height: 24px;
+        }
+        .search-bar button .fa-microphone {
+            color: #4285F4;
+            font-size: 24px;
+        }
+        .search-bar button .fa-camera {
+            color: #4285F4;
+            font-size: 24px;
+        }
+        .search-bar input {
+            flex: 1;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .buttons button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 14px;
+            color: #202124;
+            background-color: #f8f9fa;
+            border: 1px solid #dadce0;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color: #f1f3f4;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #5f6368;
+        }
+        .footer a {
+            text-decoration: none;
+            color: #1a73e8;
+        }
+        .lan {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #5f6368;
+        }
+        .lan a {
+            text-decoration: none;
+            color: #1a73e8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Logo -->
+    <div class="logo">
+        <img src="google.jpg" alt="Google Logo" width="300">
+        <img class="share-icon" src="https://img.icons8.com/ios-glyphs/30/share.png" alt="Share Icon">
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <div class="search-bar">
+            <!-- Search Icon -->
+            <button>
+                <img src="https://img.icons8.com/ios-filled/24/search.png" alt="Search Icon">
+            </button>
+            <!-- Input Field -->
+            <input type="text" placeholder="Search">
+            <!-- Microphone Icon -->
+            <button>
+                <i class="fas fa-microphone"></i>
+            </button>
+            <!-- Camera Icon -->
+            <button>
+                <i class="fas fa-camera"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Here's to 2024: <a href="#">Look back on the top Search Trends</a></p>
+    </div>
+    <div class="lan">
+        <p>Google offered in: 
+            <a href="#">हिन्दी</a>
+            <a href="#">বাংলা</a>
+            <a href="#">తెలుగు</a>
+            <a href="#">मराठी</a>
+            <a href="#">தமிழ்</a>
+            <a href="#">ગુજરાતી</a>
+            <a href="#">ಕನ್ನಡ</a>
+            <a href="#">മലയാളം</a>
+            <a href="#">ਪੰਜਾਬੀ</a>
+        </p>
+    </div>
+</body>
+</html>

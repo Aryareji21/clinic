@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinic Management Software</title>
+    <style>
+      body {
+        margin: 0;
+        /* font-family: Arial, sans-serif; */
+        background: linear-gradient(to right, #1f41ee, #09d5f5);
+        color: white;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background: linear-gradient(
+          to right,
+          #1f41ee,
+          #09d5f5
+        ); /* Updated to match body gradient */
+      }
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+      }
+
+      .navbar a:hover {
+        text-decoration: none;
+      }
+
+      .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        padding: 50px 20px;
+      }
+
+      .hero-text {
+        max-width: 50%;
+        margin-left: 150px;
+        
+      }
+
+      .hero h1 {
+        font-size: 3em;
+        margin: 0; /* Remove margin between headings */
+      }
+
+      .hero p {
+        font-size: 1.2em;
+        margin-bottom: 30px;
+      }
+
+      .hero img {
+        max-width: 30%;
+        height: 30;
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+
+      .cta-buttons {
+        margin-top: 30px;
+      }
+
+      .cta-buttons a {
+        padding: 10px 20px;
+        border-radius: 50px; /* Oval shape */
+        margin: 0 10px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+      }
+
+      .cta-buttons .demo {
+        background-color: #ff5722;
+      }
+
+      .cta-buttons .login {
+        background-color: #4caf50;
+      }
+
+      .chat-widget {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        display: flex;
+        align-items: center;
+        background-color: #00c853;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        font-weight: bold;
+      }
+
+      .chat-widget img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+
+      .chat-widget .status {
+        background-color: white;
+        color: #00c853;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        display: inline-block;
+        margin-left: 10px;
+      }
+
+      .footer-image {
+        text-align: left;
+        padding: 20px;
+      }
+
+      .footer-image img {
+        max-width: 15%;
+        height: auto;
+      }
+
+      .logo {
+        margin-left: 100px;
+      }
+
+      .hero h1:first-child {
+        font-weight: normal; /* Make "AI - Interpreted" not bold */
+      }
+      .demo {
+        margin: auto;
+        padding: 5px 10px;
+        border-radius: 40px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid white; 
+      }
+      .login {
+        margin: auto;
+        padding: 5px 10px;
+        border-radius: 40px; 
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        display: inline-block;
+        border: 1px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Doctosmart Logo" />
+          </div>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Events</a>
+        <a href="#">Support</a>
+        <a href="#" class="demo">Demo</a>
+        <a href="#" class="login">Login</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="hero-text">
+        <h1>AI - Interpreted</h1>
+        <h1>Clinic Management Software</h1>
+        <p>
+          We're redefining clinic management software with an all-in-one
+          solution to help you manage your medical practice.
+        </p>
+        <p>
+          Doctosmart Clinic Management Software is designed to help clinics of
+          all sizes manage their day-to-day operations. From managing your
+          finances, to keeping track of patient records, to scheduling
+          appointments, Doctosmart has everything you need to run your clinic
+          efficiently and effectively.
+        </p>
+      </div>
+      <img src="\doctornew.png" alt="Doctor illustration" />
+    </div>
+
+    <div class="chat-widget">
+      online
+      <span class="status"></span>
+    </div>
+  </body>
+</html>

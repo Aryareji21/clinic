@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+      }
+      .main-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 50px;
+        box-shadow: 0 1px 2px rgb(90, 89, 89);
+      }
+      .main {
+        padding-left: 20px;
+        margin-top: 100px;
+        margin-left: 200px;
+      }
+      .main input {
+        width: 300px;
+        height: 30px;
+        border: 1px solid;
+        border-radius: 4px;
+      }
+      a {
+        text-decoration: none;
+        color: blue;
+        padding: 10px;
+        font-size: small;
+      }
+      img {
+        width: 500px;
+        height: 450px;
+        padding-right: 100px;
+      }
+      .main button {
+        width: 330px;
+        height: 35px;
+        background-color: rgb(75, 75, 209);
+        color: white;
+        border: 1px solid;
+        border-radius: 6px;
+      }
+      .main p {
+        font-size: small;
+      }
+      .user input {
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+      }
+      .user {
+        position: relative;
+        width: 300px;
+        height: 30px;
+        margin-bottom: 10px;
+      }
+      .user .fa-user {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: gray;
+      }
+      .pass input {
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+      }
+      .pass {
+        position: relative;
+        width: 300px;
+        height: 30px;
+        margin-bottom: 10px;
+      }
+      .pass .fa-lock {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: gray;
+      }
+      .pass .fa-eye {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: gray;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="main">
+        <h1>LOGIN</h1>
+        <p>Click to log in and access your dashboard!</p>
+        <form action="">
+          <div class="user">
+            <i class="fa-regular fa-user"></i>
+            <input type="text" placeholder="abcd1234@gmail.com" /><br /><br />
+          </div>
+          <br />
+          <div class="pass">
+            <i class="fa-solid fa-lock"></i
+            ><input type="password" placeholder="Enter Your Password" /><i
+              class="fa-regular fa-eye"
+            ></i
+            ><br /><br />
+          </div>
+          <p>
+            Don't have an account?<a href="#">Sign Up</a
+            ><a href="#">Forgot Password</a>
+          </p>
+          <br />
+          <button type="submit">Login</button>
+        </form>
+      </div>
+      <img src="/doc.png" alt="doctorimg" />
+    </div>
+  </body>
+</html>

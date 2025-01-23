@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clinic Stats</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f7fbf8;
+        color: #222;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+
+      .stats {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 50px 20px;
+      }
+
+      .stat-card {
+        background: linear-gradient(to bottom right, #4a90e2, #6a9ff8);
+        color: white;
+        padding: 20px 30px;
+        border-radius: 10px;
+        flex: 1;
+        text-align: center;
+        min-width: 150px;
+      }
+
+      .stat-card h2 {
+        font-size: 1.5em;
+        margin: 10px 0;
+      }
+
+      .stat-card p {
+        font-size: 0.9em;
+        margin: 0;
+      }
+
+      .services {
+        padding: 30px;
+        
+      }
+
+
+      .services h2 {
+        font-size: 2em;
+        color: #333;
+        margin-bottom: 30px;
+      }
+
+      .service-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        
+      }
+
+      .service-card {
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center; /* Keeps the heading and icon centered */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .service-card i {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #0fd67c; 
+        color: white;
+        font-size: 24px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+      }
+
+      .service-card h3 {
+        font-size: 1.2em;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .service-card p {
+        font-size: 0.9em;
+        color: #666;
+        text-align: justify; 
+      }
+
+      .service-card a {
+        display: block;
+        margin-top: 10px;
+        font-size: 0.9em;
+        color: #4c4d4e;
+        text-decoration: none;
+      }
+
+      .service-card a:hover {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="stats">
+      <div class="stat-card">
+        <i class="fa-solid fa-stethoscope"></i>
+        <h2>5,000+</h2>
+        <p>Happy Doctors</p>
+      </div>
+      <div class="stat-card">
+        <i class="fa-solid fa-users"></i>
+        <h2>5 million+</h2>
+        <p>Patients Served</p>
+      </div>
+      <div class="stat-card">
+        <i class="fa-solid fa-city"></i>
+        <h2>300+</h2>
+        <p>Cities</p>
+      </div>
+      <div class="stat-card">
+        <i class="fa-solid fa-globe"></i>
+        <h2>20+</h2>
+        <p>Countries</p>
+      </div>
+    </div>
+
+    <div class="services">
+      <h2>Easy, Integrated & Customizable</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <i class="fa-regular fa-clock"></i>
+          <h3>Appointment</h3>
+          <p>
+            Book appointments, schedule your team and generate 24/7 bookings
+            from your website.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-users"></i>
+          <h3>Patient Management System</h3>
+          <p>
+            Book appointments, schedule your team and generate 24/7 bookings
+            from your website.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-clipboard-list"></i>
+          <h3>Electronic Medical Records</h3>
+          <p>
+            Book appointments, schedule your team and generate 24/7 bookings
+            from your website.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-comment-dollar"></i>
+          <h3>Invoice & Payments</h3>
+          <p>
+            Book appointments, schedule your team and generate 24/7 bookings
+            from your website.
+          </p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
